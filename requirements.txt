@@ -1,0 +1,8 @@
+numpy>=1.19.0
+onnxruntime>=1.11.0,<2
+faster-whisper>=1.0.0
+pyaudio>=0.2.11; sys_platform != "darwin"
+portaudio>=0.2.11; sys_platform == "darwin"
+piper-phonemize~=1.1.0
+pyyaml>=6.0
+

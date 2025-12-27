@@ -1,0 +1,32 @@
+whisper:
+  model: "base"
+  device: "cpu"
+  compute_type: "int8"
+  beam_size: 1
+  vad_filter: true
+
+piper:
+  model_path: null
+  config_path: null
+  use_cuda: false
+  voices_dir: "piper_voices"
+
+audio:
+  sample_rate: 16000
+  chunk_size: 1024
+  channels: 1
+  format: "int16"
+
+performance:
+  enable_model_caching: true
+  transcription_timeout: 30.0
+
+error_handling:
+  max_retries: 3
+  retry_delay: 0.5
+
+logging:
+  log_dir: "logs"
+  log_level: "INFO"
+
+
