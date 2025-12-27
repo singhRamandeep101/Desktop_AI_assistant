@@ -17,4 +17,3 @@ python friday_assistant.py
 ## Configuration
 
 Edit `config.yaml` to customize settings.
-
